@@ -9,6 +9,7 @@ class Settings(BaseModel):
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24 * 7 # 7 days
     HF_API_KEY: str = "gR8XuBNXCFz3WbJh0PmRxpuMeNmEAjqaVtNVjkteGM4nWicztmw6ctBzA6NiCMXHfLqQzBh4j7z7aNme1a2jQw6F1wZ5k4VyXzHG"
     HF_TRANSLATE_URL: str = "https://kpatil092-indictrans2-fastapi.hf.space/translate"
+    HF_POETRY_URL: str = "https://kpatil092-poetic-verse-generator-api.hf.space/generate_verse"
     
     KEYCLOAK_ADMIN_USER: str = "admin"
     KEYCLOAK_ADMIN_PASS: str = "admin"

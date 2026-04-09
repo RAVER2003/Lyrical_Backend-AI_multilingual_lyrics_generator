@@ -5,3 +5,6 @@ python-multipart
 sqlalchemy
 PyJWT[crypto]
 cryptography
+unidecode
+aksharamukha
+epitran
